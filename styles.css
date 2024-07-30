@@ -1,0 +1,50 @@
+/* CSS Variables */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer, main {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+h1, h2 {
+    color: var(--secondary-color);
+}
+
+figure {
+    float: left;
+    margin-right: 20px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
